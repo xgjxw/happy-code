@@ -1,0 +1,29 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>温馨祝福</title>
+</head>
+<body>
+    <div style="padding: 20px;">
+        <h2>温馨祝福弹窗插件</h2>
+        <p>点击下方按钮或直接运行命令来启动祝福弹窗</p>
+        <button id="runButton">运行祝福弹窗</button>
+        <p>提示：点击任意弹窗可选中，3秒后程序自动退出</p>
+    </div>
+
+    <script>
+        document.getElementById('runButton').addEventListener('click', function() {
+            window.exports["blessing_windows"].fn();
+            window.utools.hideMainWindow();
+        });
+
+        // 页面加载完成后自动运行
+        window.addEventListener('load', function() {
+            window.exports["blessing_windows"].fn();
+            window.utools.hideMainWindow();
+        });
+    </script>
+</body>
+</html>

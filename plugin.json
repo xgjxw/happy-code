@@ -1,0 +1,12 @@
+{
+  "main": "index.html",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "blessing_windows",
+      "explain": "温馨祝福弹窗",
+      "cmds": ["温馨祝福", "祝福弹窗", "happy code"]
+    }
+  ]
+}
