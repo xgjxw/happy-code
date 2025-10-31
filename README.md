@@ -13,3 +13,7 @@ python代码执行脚本，可以在windows上显示祝福语，选中某个祝�
 ```txt
 utools搜索插件，开心标签
 ```
+
+## 效果图
+
+![alt text](示例图.png)
